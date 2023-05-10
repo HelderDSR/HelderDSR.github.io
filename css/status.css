@@ -98,7 +98,7 @@ section {
   margin-top: 60px;
 }
 
-.botao-flex {
+/* .botao-flex {
   display: flex;
   gap: 150px;
   justify-items: center;
@@ -108,10 +108,9 @@ section {
   text-decoration: none;  
   background: rgb(224, 224, 224);
   padding: 10px 20px;
-}
+} */
 
-/* .botao {
-  display: flex;
+.botao {
   text-decoration: none;
   font-size: 32px;
   font-weight: 550;
@@ -125,7 +124,7 @@ section {
   text-align: center;
   align-items: center;
   left: 54px;
- } */
+ }
 
 .texto-botao {
   margin-top: 10px;
