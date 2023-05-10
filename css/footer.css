@@ -1,0 +1,28 @@
+.footer {
+  padding: 10px 20px 20px 20px;
+  margin: 0 auto;
+  background: black;
+  color: #fff;
+}
+
+.footer span {
+  color: red;
+}
+
+.footer h1,
+span {
+  text-transform: uppercase;
+}
+
+.texto {
+  font-size: 1.5rem;
+  line-height: 0.25;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 60px;
+ justify-content: space-evenly;
+}
+
+.texto-footer {
+  display: grid;
+}

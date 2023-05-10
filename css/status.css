@@ -1,0 +1,154 @@
+.status-titulo {
+  color: #404040;
+}
+section {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid p {
+  font-size: 32px;
+  margin-left: 370px;
+}
+
+.grid {
+  position: relative;
+}
+
+.decorador-seta {
+  position: absolute;
+  top: 120px;
+  left: 1600px;
+}
+
+.status-titulo {
+  font-size: 60px;
+  margin: 120px 0px 0px 251px;
+}
+
+/* Esse é o detalhe em vermelho na frente do status */
+.status-titulo::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 10px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  left: -50px;
+  bottom: -40px;
+}
+
+.status-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+
+.decorador-raio {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 60.5px;
+}
+
+.status {
+  display: grid;
+  text-transform: uppercase;
+  font-size: 2rem;
+  background: black;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 36px;
+  width: 360px;
+  height: 400px;
+  position: relative;
+}
+
+.status-tipo-ok {
+  text-align: center;
+  margin-top: 100px;
+}
+.status-tipo-atencao {
+  text-align: center;
+  margin-top: 100px;
+}
+.status-tipo-falha {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.status-qtd {
+  font-size: 78px;
+}
+
+.status-qtd-ok {
+  font-size: 78px;
+  text-align: center;
+  margin-top: 60px;
+}
+.status-qtd-atencao {
+  font-size: 78px;
+  text-align: center;
+  margin-top: 60px;
+}
+.status-qtd-falha {
+  font-size: 78px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.botao-flex {
+  display: flex;
+  gap: 150px;
+  justify-items: center;
+}
+
+.botao-flex a {
+  text-decoration: none;  
+  background: rgb(224, 224, 224);
+  padding: 10px 20px;
+}
+
+/* .botao {
+  display: flex;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 550;
+  background: rgb(224, 224, 224);
+  width: 238px;
+  height: 68px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #331100;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  left: 54px;
+ } */
+
+.texto-botao {
+  margin-top: 10px;
+}
+
+.seta-ok {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+.seta-atencao {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+.seta-falha {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+.decorador-final {
+  margin-left: 370px;
+  margin-top: 80px;
+  margin-bottom: 125px;
+}
